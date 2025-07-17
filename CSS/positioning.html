@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Position Element</title>
+<style>
+    body {
+        height: 2000px; 
+        background: purple;
+        margin: 0;
+    }
+
+    .pink-box {
+        width: 80%;
+        height: 600px;
+        background: hotpink;
+        margin: 50px auto;
+        position: relative;
+    }
+
+    .yellow-box {
+        position: fixed; 
+        top: 50%;        
+        left: 50%;        
+        transform: translate(-50%, -50%); 
+        width: 300px;
+        height: 200px;
+        background: yellow;
+        border: 2px dotted black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 2rem;
+        font-family: monospace;
+    }
+</style>
+</head>
+<body>
+<div class="pink-box"></div>
+
+<div class="yellow-box">
+    KALYANI
+</div>
+</body>
+</html>

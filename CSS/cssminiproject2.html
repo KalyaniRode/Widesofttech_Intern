@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education Outside the Classroom</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+        body {
+            background: url("education2.jpeg");
+            overflow:hidden;
+            background-size: cover;
+            background-attachment: fixed;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+            max-width: 900px;
+            width: 90%;
+            display: flex;
+            flex-wrap: wrap;
+            overflow: hidden;
+        }
+        .left {
+            flex: 1 1 300px;
+            padding: 40px;
+        }
+        .left h1 {
+            font-size: 28px;
+            color: rgb(43, 40, 40);
+            margin-bottom: 15px;
+        }
+        .left p {
+            font-size: 16px;
+            color:rgb(43, 40, 40) ;
+            line-height: 1.5;
+            margin-bottom: 25px;
+        }
+        .buttons {
+            display: flex;
+            gap: 15px;
+        }
+        .buttons button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 15px;
+            transition: background 0.3s;
+        }
+        .signup {
+            background: rgb(37, 104, 37);
+            color: white;
+        }
+        .signup:hover {
+            background:rgb(37, 104, 37) ;
+        }
+        .login {
+            background: white;
+            color:gb(43, 40, 40) ;
+        }
+        .login:hover {
+            background: whitesmoke;
+        }
+        .right {
+            flex: 1 1 300px;
+            background: linear-gradient(to top right, whitesmoke, rgb(176, 197, 176));
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 30px;
+        }
+        .right img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+            }
+            .right, .left {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <h1>Education outside the classroom</h1>
+            <p>A platform to bring new friends around you in a way that is fun for all</p>
+            <div class="buttons">
+                <button class="signup">Signup</button>
+                <button class="login">Login</button>
+            </div>
+        </div>
+        <div class="right">
+            <img src="education.png">
+        </div>
+    </div>
+</body>
+</html>

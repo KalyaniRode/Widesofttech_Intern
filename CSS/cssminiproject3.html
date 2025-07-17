@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mini Project3</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: sans-serif;
+    }
+    body {
+      background: linear-gradient(to right, rgb(87, 148, 87), rgb(230, 230, 90));
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+    .card {
+      background: white;
+      border-radius: 15px;
+      padding: 30px;
+      max-width: 800px;
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    }
+    .left, .right {
+      flex: 1;
+      min-width: 250px;
+      padding: 20px;
+    }
+    .left h1 {
+      font-size: 28px;
+      color: #2d3436;
+      margin-bottom: 15px;
+    }
+    .left p {
+      font-size: 14px;
+      color: grey;
+      margin-bottom: 20px;
+    }
+    .left button {
+      padding: 10px 20px;
+      background: rgb(25, 90, 25);
+      color:white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 14px;
+    }
+    .nav {
+      display: flex;
+      gap: 15px;
+      margin-bottom: 20px;
+    }
+    .nav a {
+      text-decoration: none;
+      color: grey;
+      font-size: 14px;
+    }
+    @media screen and (max-width: 576px) {
+            .card {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }}
+    .right {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .right img {
+      max-width: 100%;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="left">
+      <div class="nav">
+        <a href="#">HOME</a>
+        <a href="#">ABOUT US</a>
+        <a href="#">CONTACT US</a>
+        <a href="#">CONTENT</a>
+      </div>
+      <h1>WEB DESIGN & DEVELOPMENT</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <button>READ MORE</button>
+    </div>
+    <div class="right">
+      <img src="webdesigning.jpeg" alt="Web Design Illustration">
+    </div>
+  </div>
+</body>
+</html>

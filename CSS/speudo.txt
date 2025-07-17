@@ -1,0 +1,12 @@
+*Placeholder property of speudo element:
+      The CSS ::placeholder pseudo-element is used to style the placeholder text of  <input> or <textarea> elements.
+     The placeholder text is set with the placeholder attribute, which specifies a hint that describes the expected value of the field.
+
+
+*CSS Outline
+An outline is a line that is drawn around elements, OUTSIDE the borders, to make the element "stand out".
+CSS has the following outline properties:
+ outline-style
+ outline-color
+ outline-width
+ outline-offset

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid layout5</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box ;
+        }
+        body {
+            background-color: wheat;
+            font-family: sans-serif;
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(4, 200px);
+            grid-auto-rows: 200px;
+            gap: 20px;
+            background:  whitesmoke;
+             padding: 20px;
+        }
+        .card1{
+            grid-column-start: 1;
+            grid-column-end: 2;
+            font-size:1rem;
+            font-weight: bold;
+        }
+        .card2{
+            grid-column-start: 2;
+            grid-column-end: 3;
+        }
+         .card2 ,img{ 
+            height:200px;
+            width:200px;
+
+         }
+        .card3{
+            grid-column-start: 3;
+            grid-column-end: 5;
+            font-weight: bolder;
+            font-size: larger;
+            text-align: center;
+        }
+        .card4{
+            grid-column-start: 1;
+            grid-column-end: 2;
+    
+        }
+        .card5{
+            grid-column-start: 2;
+            grid-column-end: 4;
+            font-weight: bolder;
+            font-size: larger;
+            text-align: center;
+        }
+        .card6{
+            grid-column-start: 4;
+            grid-column-end: 5;
+            grid-row-start: 2;
+            grid-row-end:4;
+        }
+        .card6 img{
+            width: 200px;
+            height:400px;
+        background-color: palevioletred;
+        font-size: large;
+
+        }
+        .card7{
+            grid-column-start: 1;
+            grid-column-end: 2;
+            font-weight: bold;
+            text-align: center;
+
+            
+        }
+        .card8{
+            grid-column-start: 2;
+            grid-column-end: 4;
+        }
+       .card8 img{
+        width:400px;
+        height:200px;
+        color:rgb(64, 126, 64)
+       }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+         <div class="card card1">
+         <p> 3D Touch</p>
+         <p> 12 MB Photos,</p>
+         <p> 4K Video</p>
+         <p>One Powerful phone</p>
+         <p><i>Learn more or visit Apple store today</i></p>
+        </div>
+         <div class="card card2">
+         <img src="mobile.png">
+         </div>
+        <div class="card card3">
+            <p>How to Use Rotary</p>
+            <p>Evaporator in</p>
+            <p>Chrmical Labs</p>
+        </div>
+        <div class="card card4">Our Brand New Keyboard  
+            <img src="keybord.jpeg">
+        </div>
+        <div class="card card5">
+            <p>Hardly a month</p>
+            <p>Passes these</p>
+            <p>days where</p>
+            <h4><i>Apple may be experencing in the virtual reality space. The company has been gratefuk for their customer</i></h4>
+        </div>
+        <div class="card card6">iCloud + Floppy Icon
+            <img src="icloud.jpeg">
+        </div>
+        <div class="card card7">Gaming Comparison</div>
+        <div class="card card8">
+            <img src="laptop.jpeg">
+           <h4>Much MuchBetter Experience</h4>
+        </div>
+
+    </div>
+</body>
+</html>

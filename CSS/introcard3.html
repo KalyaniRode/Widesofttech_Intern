@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introcard3</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+        }
+        body{
+            width: 100%;
+            height:100vh;
+            display:grid;
+            background-color:rgba(238, 131, 159, 0.833);
+            align-items: center;
+            justify-items: center;
+        }
+        .element1{
+            width:500px;
+            height:500px;
+            align-items: center;
+            display:grid;
+            grid-template-columns: repeat(2,1fr);
+            background-color: rgb(206, 185, 205);
+        }
+        .element1 img{
+            width:200px;
+            height:200px;
+            border-radius:90%;
+        } 
+        .content{
+            display:flex;
+            flex-direction: column;
+            gap:0.5rem;
+        }
+         .content h1 {
+            font-size: 1.8rem;
+        }
+        .content p {
+            font-size: 1rem;
+        }
+        .container{
+           display:grid;
+           grid-template-columns: repeat(3,1fr);
+           gap:0.5rem;
+           margin-top:0.5rem;
+        }
+        .item {
+            text-align: center;
+            padding: 0.5rem;
+            border-radius:0.5rem;
+            font-size: larger;
+            font-weight: bold;
+        }
+        button{
+            border-radius:0.1rem;
+        }
+        button:hover {
+            background-color: #000000;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="element1">
+      <img src="me.jpeg">
+      <div class="content">
+      <h1>Kalyani Rode</h1> 
+      <p>I'm a Frontend Devloper,follow me to be the first who see my new work</p>
+     <div class="container">
+     <div class="item item1"><p>15K</p>Views</div>
+     <div class="item item1"><p>82</p>Projects</div>
+     <div class="item item1"><p>1.3M</p>Followers</div>
+      </div>
+     <div class="button">
+        <button type="submit">Follow</button>     
+         <button type="submit">View Profile</button>
+    </div>
+    </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<html>
+  <head>
+    <title>Travel Form</title>
+  </head>
+  <body>
+    <h1>Travel Reservation Form</h1>
+    <h2>* denote mandotory</h2>
+    <form method="post" action="submit">
+      <label for="fullname">Full name*:</label><br>
+      <input type="text" id="fullname"name="Fullname"placeholder="firstname lastname" required/> <br><br>
+      <label for="email address">Email address*:</label><br>
+      <input type="email"id="email"name="email " placeholder="example@email.com" required/><br><br>
+      <label for="package">Select Tour Package*:</label>
+      <select id="package" name="destination" required/>
+        <option value="">--Select--</option>
+        <option value="paris">Paris</option>
+        <option value="london">London</option>
+        <option value="japan">Japan</option></select
+      ><br><br>
+      <label for="date">Arrival date*:</label><br>
+      <input type="date" value="yyyy-mm-dd"><br><br>
+      <label for="person">Number of person*</label><br>
+      <input type="number" value="10" min="8" max="15"><br><br>
+      <label for="i1">What would you want to avail?*</label><br>
+      <label for="i2">bording</label>
+      <input type="checkbox" id="i2" name="boarding" required/><br>
+      <label for="i3">fooding</label>
+      <input type="checkbox" id="i3" name="fooding" required/><br>
+      <label for="i4">sight seeing</label>
+      <input type="checkbox" id="i4" name="sight seeing" required/><br><br>
+      <label for=" coupon code">Discount Coupon code:</label><br>
+      <input type="text" name="coupon code" placeholder=" unkonwn_type" required/><br><br>
+      <label for="i5">Terms and conditions*:</label><br>
+      <label for="agree">Agree</label>
+      <input type="radio" name="radio-btn-1">
+      <label for="disagree">Disagree</label>
+      <input type="radio" name="radio-btn-1"><br><br>
+      <input type="Complete Reservation" value="Complete Reservation" />
+    </form>
+  </body>
+</html>

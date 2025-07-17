@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Layout5</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        body {
+            margin: 0;
+            padding: 20px;
+            background: rgb(255, 255, 255); 
+             display: flex;
+            justify-content: center;
+            
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+           width:600px;
+           justify-content: center;
+        }
+        .box {
+            background-color: rgb(167, 209, 41);
+            border: 2px solid rgb(0, 0, 0); 
+            height: 100px;
+            flex-shrink: 0;
+        }
+        .small {
+            width: 80px;
+        }
+        .medium {
+            width: 180px;
+        }
+        .large {
+            width: 280px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box small"></div>
+        <div class="box large"></div>
+        <div class="box small"></div>
+        <div class="box large"></div>
+        <div class="box medium"></div>
+        <div class="box small"></div>
+        <div class="box medium"></div>
+        <div class="box small"></div>
+        <div class="box medium"></div>
+        <div class="box large"></div>
+        <div class="box small"></div>
+        <div class="box medium"></div>
+        <div class="box small"></div>
+        <div class="box medium"></div>
+        <div class="box small"></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,15 @@
+  **CALC METHOD IN CSS**
+calc() is used in CSS to perform calculations within property values. 
+It allows combining percentages, pixels, viewport units, etc., to create more flexible and responsive designs.
+  *Syntax:
+          property: calc(expression);
+  
+     ** TIMING FUNCTION**
+CSS timing functions control the speed curve of animations and transitions. They decide how fast or slow the animation moves at different points in time.
+  Common Timing Functions:
+    linear: Constant speed
+    ease: Slow start, fast middle, slow end
+    ease-in: Slow start
+    ease-out: Slow end
+    ease-in-out: Slow start and slow end
+    cubic-bezier(x, y, x2, y2):

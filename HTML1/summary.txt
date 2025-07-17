@@ -1,0 +1,23 @@
+ ****SUMMARY OF INTERNET***
+ # The Internet is a global network of computers connected together to share information. 
+ It allows people to communicate, search for information, share files, watch videos, and use websites from anywhere in the world.
+
+#The Internet connects:
+1)People to People (Email, WhatsApp, Social Media)
+2)People to Information (Google, Wikipedia)
+3)People to Services (Online Shopping, Banking, Cloud Storage)
+
+#The idea of the internet started in the United States during the Cold War.
+#The U.S. government created a network called ARPANET (Advanced Research Projects Agency Network) in 1969.
+#ARPANET connected computers at universities and allowed them to share information.
+
+#ARPANET (1969) — The First Internet
+USA Defense Department created ARPANET to connect universities and researchers.
+First message sent between computers in 1969.
+This was the "grandfather" of today's internet.
+
+#Today (2020s)
+The Internet connects everything: people, phones, smart TVs, cars, even home appliances.
+Billions of people use it for work, education, shopping, health, entertainment.
+AI, Virtual Reality, Cloud, 5G are shaping the future.
+

@@ -1,0 +1,16 @@
+        **Drop-Shadow Filter Method**
+
+The drop-shadow() is a CSS filter function used to apply shadow effects to images, text, boxes, and other elements.
+Unlike box-shadow, drop-shadow() works like a real shadow behind the shape (especially transparent PNGs, SVGs, etc.).
+It is commonly used to give depth or highlight elements visually.
+
+ *Syntax:
+filter: drop-shadow(offset-x offset-y blur-radius color);
+Parameters:
+Parameter	Meaning
+offset-x	Horizontal shadow position
+offset-y	Vertical shadow position
+blur-radius	Blur effect of the shadow
+color	Shadow  color
+
+

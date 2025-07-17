@@ -1,0 +1,104 @@
+<html>
+    <head>
+        <title>Registration form</title>
+    </head>
+    <body>
+        <form method="post" action="submit">
+            <h1>Student Registration Form </h1>
+            <table>
+                <tr>
+                    <th>First Name</th>
+                    <td><input type="text" name= "firstname"  maxlength="50"required/>  max 50 character allowed</td>
+                </tr>
+                <tr>
+                    <th>Last Name</th>
+                    <td><input type="text" name="lastname"   maxlength="50"required/>  max 50 charcter allowed</td>
+                </tr>
+                <tr>
+                    <th>Email ID</th>
+                    <td><input type="email" name="email" required/></td>
+                </tr>
+                <tr>
+                    <th>Mobile Number</th>
+                    <td><input type="tel" name="mobile_number"/> 10 digit allowed</td>
+                </tr>
+                <tr>
+                    <th>Gender</th>
+                        <td colspan="2">
+                            <input type="radio" name="gender" value="male" required/>Male
+                            <input type="radio" name="gender" value="female" required/>Female
+                        </td>
+                    
+                </tr>
+                <tr>
+                    <th>Date of Birth</th>
+                    <td><input type="date" palceholder="yyyy-mm-dd" required/></td>
+                </tr>
+                <tr>
+                    <th>Address</th>
+                    <td><input type="text" name="address" required/></td>
+                </tr>
+                <tr>
+                    <th>City</th>
+                    <td><input type="text" name="city" maxlength="50" required/> max 50 charcter allowed</td>
+                </tr>
+                <tr>
+                    <th>Pin Code</th>
+                    <td><input type="number" name="number" required/> max 6 digit allowed</td>
+                </tr>
+                <tr>
+                    <th>State</th>
+                    <td><input type="text" name="state"  maxlength="50" required/> max 50 charcter allowed</td>
+                </tr>
+                <tr>
+                    <th>Country</th>
+                    <td><input type="text" name="country" required/></td>
+                </tr>
+                <tr>
+                    
+                    <th>Hobbies</th>
+                    <td>
+                    <input type="checkbox" name="dancing"/>Dancing<br>
+                    <input type="checkbox" name="singing"/>Singing<br>
+                    <input type="checkbox" name="drawing"/>Drawing<br>
+                    <input type="checkbox" name="football"/>football<br>
+                    <input type="checkbox" name="others"/>Others
+                    </td>
+                </tr>
+
+                <tr>
+                    <th>Qualification</th>
+                    <td>
+                    <input type="radio" name="Qualification" value="Higher school(10th)"/>Higher school(10th)<br>
+                    <input type="radio" name="Qualification" value="Higher school(12th)"/>  Higher school(12th)<br>
+                    <input type="radio" name="Qualification" value="Graduation Bachelor"/>Graduation Bachelor<br>
+                    <input type="radio" name="Qualification" value="Graduation Mastere"/>graduation Master><br>
+                    <input type="radio" name="Qualification" value="Phd"/>PHD   
+                    </td>                               
+                </tr>
+
+                <tr>
+                   <th>Course Applied For </th>
+                   <td>
+                  <input type="radio" name="Course" value="BCA"/>BCA<br>
+                  <input type="radio" name="Course" value="B.com"/>B.com<br>
+                  <input type="radio" name="Course" value="B.sc"/>B.sc<br>
+                  <input type="radio" name="Course" value="BA"/>BA<br>
+                  <input type="radio" name="Course" value="MCA"/>MCA<br>
+                  <input type="radio" name="Course" value="M.com"/>M.com<br>
+                  <input type="radio" name="Course" value="MSC"/>MSC<br>
+                  <input type="radio" name="Course" value="MA"/>MA
+                   </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2">
+                        <button type="submit">Submit</button>
+                        <button type="reset">Reset</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
+  

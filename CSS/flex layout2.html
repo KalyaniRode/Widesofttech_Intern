@@ -1,0 +1,70 @@
+<html>
+    <head>
+        <title>flex layout2</title>
+        <Style>
+            *{
+                margin:0;
+                padding:0;
+                box-sizing: border-box;
+            }
+            body{
+                display:flex;
+                flex-direction: column;
+                align-items:center;
+                font-family:'Times New Roman', Times, serif;
+                background-color: plum;
+                height:100vh;
+                padding:20px;
+            }
+            h1{
+                margin:20px;
+                font-weight:bold;
+            }
+            .container{
+                width:90%;
+                max-width:800px;
+                display:flex;
+                justify-content:center;
+                 gap:10px;
+                 flex-wrap:wrap;
+            }
+            .item{
+             flex: 1 1 30%;
+              height:100px;
+              gap:10px;
+              display:flex;
+              justify-content:center;
+              align-items:center;
+              color:white;
+              font-size: 15px;;
+              font-weight:bold;
+              text-align:center;
+            }
+            .green{
+                background-color: green;
+            }
+            .orange{
+                background-color: orange;
+            }
+            p {
+            max-width: 600px;
+            text-align: center;
+            margin-top: 20px;
+            font-size: 16px;
+            font-weight: 500;
+        }
+        </Style>
+    </head>
+    <body>
+         <h1>Started with CSS </h1>
+         <div class="container"> 
+        <div class=" item green">Item1</div>
+        <div class=" item orange">Item2</div>
+        <div class=" item green">Item3</div>
+        <div class=" item orange">Item4</div>
+        <div class=" item green">Item5</div>
+        <div class=" item orange">Item6</div>
+        </div>
+        <p>Learn the basic of css flexbox in the ultimate beginner's guide and discover how to create flexible, responsive web layout with ease</p>
+    </body>
+</html>

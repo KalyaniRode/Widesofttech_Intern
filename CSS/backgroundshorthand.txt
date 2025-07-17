@@ -1,0 +1,9 @@
+       *BACKGROUND SHORTHAND*
+
+# The CSS background shorthand property allows you to define multiple background-related properties in a single declaration, 
+simplifying the styling process and improving code readability.
+
+# It essentially combines several individual background properties like ,
+background-color, background-image, background-repeat, background-attachment, and background-position into one concise property. 
+
+#  Example:  background: #f0f0f0 url("image.png") no-repeat top right;

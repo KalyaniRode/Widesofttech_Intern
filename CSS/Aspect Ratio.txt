@@ -1,0 +1,13 @@
+ **ASPECT RATIO**
+    
+The aspect-ratio property in CSS is used to control the proportion between the width and height of an element.
+It ensures the element keeps the same shape even when resized.
+For example, 16 / 9 is common for videos, 1 / 1 is for squares.
+
+Syntax:
+ selector {
+    aspect-ratio: width / height;
+}
+   aspect-ratio keeps width and height in a fixed proportion, 
+   making layouts simple and consistent.
+
