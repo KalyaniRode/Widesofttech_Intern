@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Position </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+    
+        .btn-custom {
+            background-color: rgb(34, 139, 34);
+            color: white;
+            padding: 8px 12px;
+            border-radius: 4px;
+            font-size: 14px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="text-center my-2">
+        <h4 class="text-success">GeeksforGeeks</h4>
+        <p>Bootstrap Position Elements</p>
+    </div>
+
+    <div class="bar container position-relative bg-white px-10 py-0">
+        <a href="#" class="btn-custom position-absolute start-0 ms-3 bg-sucess text-white px-5 py-5 rounded-circle fs-6">Message</a>
+        <a href="#" class="btn-custom position-absolute top-50 start-50 text-center bg-sucess text-white px-5 py-5 rounded-circle fs-6">Notification</a>
+        <a href="#" class="btn-custom position-absolute end-0 me-3 bg-sucess text-white px-5 py-5 rounded-circle fs-6">Email</a>
+    </div>
+
+</body>
+</html>

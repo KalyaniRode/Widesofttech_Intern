@@ -1,0 +1,16 @@
+**** OVERFLOW IN BOOTSTRAP**** 
+"Overflow" typically refers to the handling of content that extends beyond its container or viewport.
+ In Bootstrap, overflow is managed using specific CSS classes, as well as native CSS properties like overflow, overflow-x, and overflow-y.
+ Value:--
+ 1.visible
+ 2.hidden.
+ 3.scroll.
+ 4.auto.
+  
+  ******VISIBILITY IN BOOTSTRAP*****
+  In Bootstrap, visibility is about controlling whether an element is visible or hidden, without removing it from the document flow.
+  Bootstrap provides utility classes to control visibility in a simple, responsive way.
+  Values:--
+  1.visible
+  2.hidden
+  3.invisible
