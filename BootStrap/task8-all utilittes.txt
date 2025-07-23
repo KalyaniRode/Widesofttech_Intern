@@ -1,0 +1,32 @@
+***Float in Bootstrap***
+Bootstrap provides utility classes to float elements left, right, or remove float without writing custom CSS.
+It has some values:--
+   1. float-start
+   2.float-end
+   3. float-none
+
+***Interaction in Bootstrap***
+Interaction utilities in Bootstrap allow you to control how users interact with elements without writing custom CSS.
+By using Interaction we can control:--
+ 1.pointer event
+ 2. text selection
+ value:--
+   1.user-select-all
+   2.user-select-auto
+   3.user-select-none
+
+   ***Link in Bootstrap***
+   Link utilities are used to stylize your anchors to adjust their color, opacity, underline offset, underline color, and more.
+These include:
+ .Link colors
+. Button links
+.Icon links
+.Responsive interaction with hover/focus
+
+***Shadow in Bootstrap***
+Add or remove shadows to elements with box-shadow utilities.
+Values:--
+1.No shadow
+2.Small shadow
+3.Regular shadow
+4.large shadow
