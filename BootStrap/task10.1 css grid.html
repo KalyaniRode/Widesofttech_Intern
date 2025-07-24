@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bootstrap CSS Grid </title>
+  <link rel="stylesheet" href="bootstrap-5.3.7-dist/css/bootstrap.css"/>
+  <style>
+    .grid-3-col {
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+    }
+  </style>
+</head>
+<body class="bg-light"> CSS Grid:--
+
+  <div class="container mt-4">
+
+    <div class=" d-grid grid-3-col col-md-12">
+
+      <div class="bg-primary text-white p-4 rounded text-center">
+       Item 1
+      </div>
+
+      <div class="bg-success text-white p-4 rounded text-center">
+         Item 2
+      </div>
+
+      <div class="bg-warning text-dark p-4 rounded text-center">
+         Item 3
+      </div>
+
+      <div class="bg-info text-white p-4 rounded text-center">
+         Item 4
+      </div>
+
+      <div class="bg-secondary text-white p-4 rounded text-center">
+         Item 5
+      </div>
+
+      <div class="bg-danger text-white p-4 rounded text-center">
+         Item 6
+      </div>
+
+    </div>
+  </div>
+
+</body>
+</html>
