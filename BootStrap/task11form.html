@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Event Registration form using bootstrap</title>
+  <link rel="stylesheet" href="bootstrap-5.3.7-dist/css/bootstrap.css"/>
+</head>
+<body class="bg-light">
+<form>
+<div class="container py-4">
+  <div class="card shadow-sm mb-4">
+    <div class="card-header bg-primary text-white">
+      <h4 class="mb-0">Event Registration Form</h4>
+    </div>
+    <div class="card-body">
+      <div class="row mb-3">
+        <div class="col-sm-6">
+          <label class="form-label">First Name</label>
+          <input type="text" class="form-control" placeholder="Enter your first name">
+        </div>
+        <div class="col-sm-6">
+          <label class="form-label">Last Name</label>
+          <input type="text" class="form-control" placeholder="Enter your last name">
+        </div>
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label">Email Address</label>
+        <input type="email" class="form-control" placeholder="example@gmail.com">
+      </div>
+      <div class="mb-3">
+        <label class="form-label">Create a Password</label>
+        <input type="password" class="form-control" placeholder="At least 6 characters">
+      </div>
+      
+      <div class="mb-3">
+        <label class="form-label">Select Event</label>
+        <select class="form-select">
+          <option selected disabled>Choose...</option>
+          <option>Workshop</option>
+          <option>Seminar</option>
+          <option>Webinar</option>
+        </select>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="card shadow-sm mb-4">
+    <div class="card-header bg-success text-white">
+      <h5 class="mb-0">Preferences</h5>
+    </div>
+    <div class="card-body">
+      <div class="form-check mb-2">
+        <input class="form-check-input" type="checkbox" id="agreeCheck">
+        <label class="form-check-label" for="agreeCheck">I agree to the terms and conditions</label>
+      </div>
+      <label class="form-label d-block">Meal Preference:</label>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="meal" id="veg" checked>
+        <label class="form-check-label" for="veg">Vegetarian</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="meal" id="nonveg">
+        <label class="form-check-label" for="nonveg">Non-Vegetarian</label>
+      </div>
+    </div>
+  </div>
+
+  
+  
+
+
+  <div class="card shadow-sm mb-4">
+    <div class="card-header bg-warning text-dark">
+      <h5 class="mb-0">Login Info</h5>
+    </div>
+    <div class="card-body">
+      <div class="form-floating mb-3">
+        <input type="email" class="form-control" id="floatEmail" placeholder="name@example.com">
+        <label for="floatEmail">Email address</label>
+      </div>
+      <div class="form-floating">
+        <input type="password" class="form-control" id="floatPassword" placeholder="Password">
+        <label for="floatPassword">Password</label>
+      </div>
+    </div>
+  </div>
+
+  <div class="card shadow-sm mb-4">
+    <div class="card-header bg-secondary text-white">
+      <h5 class="mb-0">Social Links</h5>
+    </div>
+    <div class="card-body">
+      <div class="input-group mb-3">
+        <span class="input-group-text">Instagram</span>
+        <input type="text" class="form-control" placeholder="@username">
+      </div>
+      <div class="input-group">
+        <input type="text" class="form-control" placeholder="YouTube Channel">
+        <span class="input-group-text">.com</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="text-center">
+    <button class="btn btn-primary px-4">Submit Registration</button>
+  </div>
+
+</div>
+</form>
+</body>
+</html>

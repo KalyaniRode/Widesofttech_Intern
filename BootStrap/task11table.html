@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bootstrap Table Variations</title>
+  <link rel="stylesheet" href="bootstrap-5.3.7-dist/css/bootstrap.css"/>
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+    h3 {
+      text-align: center;
+      margin: 20px 0;
+    }
+    .table-section {
+      background: #ffffff;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container py-4">
+  <h3>Bootstrap Table Variations</h3>
+
+  <div class="table-section">
+    <h5>Basic Table</h5>
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Sr</th>
+          <th>Item</th>
+          <th>Quantity</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Pen</td>
+          <td>10</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Notebook</td>
+          <td>5</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="table-section">
+    <h5>Striped row Table</h5>
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>Sr</th>
+          <th>Subject</th>
+          <th>Marks</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Math</td>
+          <td>95</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Science</td>
+          <td>89</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>English</td>
+          <td>79</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+<div class="table section">
+    <h5>Stripped column table</h5>
+          <table class="table border border-5 border-success table-striped-columns">
+                <thead>
+                    <tr>
+                        <th>Sr</th>
+                        <th>First</th>
+                        <th>Last</th>
+                        <th>Age</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Kalyani</td>
+                        <td>Rode</td>
+                        <td>21</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Kashish</td>
+                        <td>Dahrawal</td>
+                        <td>20</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>lekha</td>
+                        <td>sahare</td>
+                        <td>21</td>
+                    </tr>
+</tbody>
+</table>
+</div>
+  <div class="table-section">
+    <h5>Bordered Table</h5>
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th>Sr</th>
+          <th>City</th>
+          <th>Country</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Mumbai</td>
+          <td>India</td>
+        </tr>
+       <tr>
+          <td>2</td>
+          <td>London</td>
+          <td>UK</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Delhi</td>
+          <td>India</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="table section">
+    <h5>Border background color table</h5>
+          <table class="table border border-5 table-bordered border-danger">
+                <thead>
+                    <tr>
+                        <th>Sr</th>
+                        <th>First</th>
+                        <th>Last</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Kalyani</td>
+                        <td>Rode</td>
+                    </tr>
+                     <tr>
+                        <td>2</td>
+                        <td>Kashish</td>
+                        <td>Dahrawal</td>
+                     </tr>
+                      <tr>
+                        <td>3</td>
+                        <td>Lekha</td>
+                        <td>Sahare</td>
+                      </tr>
+             </tbody>
+          </table>
+      </div>
+               
+  <div class="table-section">
+    <h5>Hoverable Table</h5>
+    <table class="table table-hover">
+      <thead>
+        <tr>
+          <th>Sr</th>
+          <th>Course</th>
+          <th>Duration</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Web Development</td>
+          <td>6 months</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Data Science</td>
+          <td>8 months</td>
+        </tr>
+         <tr>
+          <td>3</td>
+          <td>Data Analysis</td>
+          <td>7 months</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="table-section">
+    <h5>Variant table</h5>
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Sr</th>
+          <th>Status</th>
+          <th>Remarks</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="table-success">
+          <td>1</td>
+          <td>Passed</td>
+          <td>Excellent</td>
+        </tr>
+        <tr class="table-warning">
+          <td>2</td>
+          <td>Pending</td>
+          <td>Waiting</td>
+        </tr>
+        <tr class="table-danger">
+          <td>3</td>
+          <td>Failed</td>
+          <td>Needs Improvement</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="table-section">
+    <h5>Responsive Table</h5>
+    <div class="table-responsive">
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th>Sr</th>
+            <th>Product</th>
+            <th>Price</th>
+            <th>Stock</th>
+            <th>Supplier</th>
+            <th>Rating</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Keyboard</td>
+            <td>Rs200</td>
+            <td>Available</td>
+            <td>ABC Supplies</td>
+            <td>4.5</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Mouse</td>
+            <td>RS100</td>
+            <td>Available</td>
+            <td>XYZ Distributors</td>
+            <td>4.0</td>
+          </tr>
+           <tr>
+            <td>3</td>
+            <td>Printer</td>
+            <td>RS300</td>
+            <td>Available</td>
+            <td>CDE Distributors</td>
+            <td>5.0</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+</div>
+
+</body>
+</html>
