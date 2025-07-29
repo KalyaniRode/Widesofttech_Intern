@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> Collapse Variations</title>
+  <link rel="stylesheet" href="../bootstrap-5.3.7-dist/css/bootstrap.css">
+  <script src="../bootstrap-5.3.7-dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+  <h2 class="text-center my-3">Bootstrap Collapse Variations</h2>
+
+  <div class="container p-3 border border-3 border-dark mb-4">
+    <h4>Basic Collapse</h4>
+    <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#collapseBasic">What is Collapse?</button>
+    <div id="collapseBasic" class="collapse mt-2">
+      <p><strong>Bootstrap Collapse</strong> is used to show and hide content dynamically with smooth animation using JavaScript and CSS transitions.</p>
+    </div>
+  </div>
+
+  <div class="container p-3 border border-3 border-success mb-4">
+    <h4>Horizontal Collapse</h4>
+    <button class="btn btn-success" data-bs-toggle="collapse" data-bs-target="#collapseHorizontal">Click for Horizontal Info</button>
+    <div class="collapse collapse-horizontal mt-3" id="collapseHorizontal">
+      <div class="border border-dark p-2" style="width: 250px;">
+        Horizontal collapse expands or contracts width-wise instead of height-wise. It's useful for side panels or menus.
+      </div>
+    </div>
+  </div>
+
+  <div class="container p-3 border border-3 border-warning mb-4">
+    <h4>Multiple Collapse Sections</h4>
+    <div class="d-flex gap-4 flex-wrap">
+      
+      <div>
+        <button class="btn btn-warning mb-2" data-bs-toggle="collapse" data-bs-target="#toggle1">toggle1</button>
+        <div id="toggle1" class="collapse multi-collapse">
+          <p>Use <code>data-bs-toggle="collapse"</code> with a <code>data-bs-target</code> attribute pointing to the ID of the element to collapse.</p>
+        </div>
+      </div>
+
+      <div>
+        <button class="btn btn-warning mb-2" data-bs-toggle="collapse" data-bs-target="#toggle2">toggle2</button>
+        <div id="toggle2" class="collapse multi-collapse">
+          <p>Supports animation, toggle from multiple buttons, and can be grouped with accordions or horizontal layout.</p>
+        </div>
+      </div>
+      <div>
+        <button class="btn btn-danger" data-bs-toggle="collapse" data-bs-target=".multi-collapse">Toggle All</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
