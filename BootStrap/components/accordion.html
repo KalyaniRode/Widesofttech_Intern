@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recreate  Accordion</title>
+  <link rel="stylesheet" href="../bootstrap-5.3.7-dist/css/bootstrap.css">
+  <script src="../bootstrap-5.3.7-dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+    .module-title {
+      font-weight: 600;
+      font-size: 1.1rem;
+    }
+    .accordion-button::after {
+      transform: scale(1.2);
+    }
+  </style>
+</head>
+
+<body class="bg-light">
+
+  <div class="container py-5">
+    <h2 class="text-center mb-4"> Web Development Course:--</h2>
+
+    <div class="accordion shadow" id="courseAccordion">
+
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button bg-primary text-white" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseOne">
+            <span class="module-title">Course 1: HTML Basics</span>
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#courseAccordion">
+          <div class="accordion-body">
+            <ul>
+              <li>Introduction to HTML</li>
+              <li>Basic Tags and Elements</li>
+              <li>Semantic HTML</li>
+              <li>Forms in HTML</li>
+              <li>Tables in HTML</li>
+              <li>Inline vs Block Elements</li>
+            </ul>
+          </div>
+        </div>
+    </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed bg-success text-white" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseTwo">
+            <span class="module-title">Course 2: CSS Fundamentals</span>
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#courseAccordion">
+          <div class="accordion-body">
+            <ul>
+              <li>Units</li>
+              <li>Selectors and Properties</li>
+              <li>Box Model</li>
+              <li>Flexbox and Grid</li>
+              <li>Styling Web Pages</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed bg-warning text-dark" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseThree">
+            <span class="module-title">Course 3: Bootstrap</span>
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#courseAccordion">
+          <div class="accordion-body">
+            <ul>
+              <li>Grid System</li>
+              <li>Utility Classes</li>
+              <li>Components: Navbars, Cards, Accordions, Alerts, Badges, Progress, Placeholders, Spinners, Offcanvas</li>
+              <li>Responsive Design</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</body>
+</html>

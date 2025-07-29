@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Carousel Example</title>
+  <link rel="stylesheet" href="../bootstrap-5.3.7-dist/css/bootstrap.css">
+  <script src="../bootstrap-5.3.7-dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+    .carousel-inner img {
+      height: 400px;
+      object-fit: cover;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Manual Carousel -->
+  <div class="container my-5" style="max-width: 900px;">
+    <h4 class="text-center mb-3">Manual Carousel</h4>
+    <div id="manualCarousel" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="flower1.jpeg" class="d-block w-100 img-fluid" alt="Slide 1">
+        </div>
+        <div class="carousel-item">
+          <img src="flower2.jpeg" class="d-block w-100 img-fluid" alt="Slide 2">
+        </div>
+        <div class="carousel-item">
+          <img src="flower3.jpeg" class="d-block w-100 img-fluid" alt="Slide 3">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#manualCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#manualCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Autoplay Carousel -->
+  <div class="container my-5" style="max-width: 900px;">
+    <h4 class="text-center mb-3">Autoplay Carousel</h4>
+    <div id="autoplayCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="2000">
+          <img src="flower3.jpeg" class="d-block w-100 img-fluid" alt="Slide A">
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="flower2.jpeg" class="d-block w-100 img-fluid" alt="Slide B">
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="flower1.jpeg" class="d-block w-100 img-fluid" alt="Slide C">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#autoplayCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#autoplayCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+  </div>
+
+</body>
+</html>

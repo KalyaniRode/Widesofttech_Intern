@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Recreate Modal</title>
+
+  <link rel="stylesheet" href="../bootstrap-5.3.7-dist/css/bootstrap.css">
+  <script src="../bootstrap-5.3.7-dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+  <div class="container my-5">
+    <h2 class="text-center mb-4">User Registration</h2>
+    <div class="text-center">
+      <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#registerModal">
+        Open Registration Modal
+      </button>
+    </div>
+  </div>
+
+  
+  <div class="modal fade" id="registerModal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+
+        <div class="modal-header bg-primary text-white">
+          <h5 class="modal-title">Register</h5>
+          <button class="btn-close bg-white" data-bs-dismiss="modal"></button>
+        </div>
+
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <label for="username" class="form-label">Name</label>
+              <input type="text" class="form-control" id="username" placeholder="Enter your name">
+            </div>
+            <div class="mb-3">
+              <label for="emailid" class="form-label">Email</label>
+              <input type="email" class="form-control" id="emailid" placeholder="Enter email">
+            </div>
+            <div class="mb-3">
+              <label for="password1" class="form-label">Password</label>
+              <input type="password" class="form-control" id="password1" placeholder="Enter password">
+            </div>
+          </form>
+        </div>
+
+        <div class="modal-footer">
+          <button class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+          <button class="btn btn-success">Submit</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
