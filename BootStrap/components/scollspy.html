@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Scrollspy</title>
+  <link rel="stylesheet" href="../bootstrap-5.3.7-dist/css/bootstrap.css">
+  <script src="../bootstrap-5.3.7-dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+    body {
+      position: relative;
+    }
+    section {
+      padding-top: 60px;
+      padding-bottom: 60px;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navbar-example"  tabindex="0">
+
+<div class="container-fluid bg-light py-4">
+  <div class="container">
+
+    <nav id="navbar-example" class="navbar navbar-light bg-white px-3 mb-4 sticky-top border rounded">
+      <a class="navbar-brand" href="#">Scrollspy</a>
+      <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a class="nav-link" href="#section1">HTML</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#section2">CSS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#section3">Bootstrap</a>
+        </li>
+      </ul>
+    </nav>
+    <div id="content">
+
+      <section id="section1">
+        <h4>HTML</h4>
+        <div class="row">
+          <div class="col-md-6">
+            <p>HTML (HyperText Markup Language) is the standard language used to create and structure content on the Web.
+            It tells the browser what elements to display on a page — such as text, images, links, headings, tables, forms, and more.</p>
+          </div>
+          <div class="col-md-6">
+            <img src="html.png" alt="HTML Image">
+          </div>
+        </div>
+      </section>
+
+      <section id="section2">
+        <h4>CSS</h4>
+        <div class="row">
+          <div class="col-md-6">
+            <p>CSS (Cascading Style Sheets) is the language used to style and design the layout of web pages.
+              It controls how HTML elements look — such as their color, size, position, font, background, spacing, and more..</p>
+          </div>
+          <div class="col-md-6">
+            <img src="css.jpeg" alt="CSS Image">
+          </div>
+        </div>
+      </section>
+
+      <section id="section3">
+        <h4>Bootstrap</h4>
+        <div class="row">
+          <div class="col-md-6">
+            <p>Bootstrap is a free, open-source CSS framework that helps you build responsive, mobile-first websites quickly.
+               It provides ready-to-use components like buttons, forms, navbars, modals, grids, and more — without writing custom CSS..</p>
+          </div>
+          <div class="col-md-6">
+            <img src="boottsrap.jpeg" alt="Bootstrap Image">
+          </div>
+        </div>
+      </section>
+
+    </div>
+
+  </div>
+</div>
+
+</body>
+</html>

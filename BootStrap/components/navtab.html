@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NavTabs</title>
+  <link rel="stylesheet" href="../bootstrap-5.3.7-dist/css/bootstrap.css" />
+  <script src="../bootstrap-5.3.7-dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+<div class="container-fluid bg-light py-4">
+  <div class="container">
+    <h3 class="mb-4">Web Technologies</h3>
+
+    <ul class="nav nav-tabs" id="techTab">
+      <li class="nav-item">
+        <button class="nav-link active" id="html-tab" data-bs-toggle="tab" data-bs-target="#html" type="button">
+          HTML
+        </button>
+      </li>
+      <li class="nav-item">
+        <button class="nav-link" id="css-tab" data-bs-toggle="tab" data-bs-target="#css" type="button">
+          CSS
+        </button>
+      </li>
+      <li class="nav-item">
+        <button class="nav-link" id="bootstrap-tab" data-bs-toggle="tab" data-bs-target="#bootstrap" type="button">
+          Bootstrap
+        </button>
+      </li>
+    </ul>
+    <div class="tab-content mt-3" id="techTabContent">
+      <div class="tab-pane fade show active" id="html">
+        <h5>HTML</h5>
+        <p>HTML (HyperText Markup Language) is used to define the structure of web pages using tags like &lt;div&gt;, &lt;p&gt;, &lt;a&gt;, etc.</p>
+      </div>
+      <div class="tab-pane fade" id="css">
+        <h5>CSS</h5>
+        <p>CSS (Cascading Style Sheets) is used to control the appearance and layout of HTML elements such as colors, fonts, spacing, and positioning.</p>
+      </div>
+      <div class="tab-pane fade" id="bootstrap">
+        <h5>Bootstrap</h5>
+        <p>Bootstrap is a CSS framework that provides pre-built components and utility classes to create responsive and mobile-friendly websites quickly.</p>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+</body>
+</html>
