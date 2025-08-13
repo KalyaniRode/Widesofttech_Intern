@@ -1,0 +1,27 @@
+***What is Javascript***
+Javascript is higher level programming language.
+JavaScript lets websites do things – like respond to clicks, show animations, validate forms, display popups, and load content without refreshing the page.
+
+**History**
+1995: JavaScript was created by Brendan Eich in just 10 days while working at Netscape. It was originally called Mocha, then renamed to LiveScript, and finally JavaScript (to ride on the popularity of Java at the time).
+
+1996: Microsoft launched its own version called JScript in Internet Explorer.
+
+1997: JavaScript was standardized by ECMA International as ECMAScript (ES).
+The first edition was ES1.
+
+2009: Node.js was released, allowing JavaScript to run on servers.
+
+2015: ES6 (ECMAScript 2015) was released — a major update introducing let, const, arrow functions, classes, promises, etc.
+
+Today: JavaScript is one of the most popular programming languages, powering web apps, servers, games, and more.
+
+***Compiler & Interpreter***
+
+Feature	             Compiler	                                               Interpreter
+Working	    Translates the entire code at once	                       Translates code line by line
+Speed	     Faster after compilation	                                Slower (executes line by line)
+Error          Handling	Shows all errors after compiling                    Stops at first error
+Output	        Generates a separate file (e.g., .exe)	                    Doesn’t generate a file, runs directly
+Examples	    C, C++, Java (compiled to bytecode)	                     Python, JavaScript
+Usage	          Used when speed is important	                            Used for scripting and quick testing

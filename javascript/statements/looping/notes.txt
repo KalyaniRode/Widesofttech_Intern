@@ -1,0 +1,24 @@
+There are three loop:--
+1.while loop
+2.do-while loop
+3.for loop
+
+*Syntax:==
+1.while loop:--
+          while(condition){
+    statement
+    updatation
+}
+ 
+2.Do-while loop
+do while()
+
+do{
+    statements
+    updatation
+}while(condition)
+
+3.For loop
+for(initilize; condition; updatation){
+    statements
+}

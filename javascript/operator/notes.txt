@@ -1,0 +1,29 @@
+**operator in js:--
+#oprators
+x + y = 20
+here:--
+x and y is oprand.
++ ,= is oprators.
+20 is value.
+
+#There are 7 oprators in js:--
+1.airthmatic oprators
++ , - , * , / , %
+
+2.assigment oprators
+= , += , -= , *= , /= , %=
+
+3.comparison oprators(conditional statement)
+< , > , <= , >= , != , == , ===
+
+4.logical oprators
+AND(&&), OR(||), Not(!)
+
+5.bitwise
+and, or, nor, xor, left shift, right shift
+
+6.ternary oprator(ternary statement(is a conditional statement))
+?
+
+7.member access oprator
+  .

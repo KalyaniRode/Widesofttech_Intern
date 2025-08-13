@@ -1,0 +1,16 @@
+** Expression & Statement:--
+
+ Expression:
+An expression is a piece of code that produces a value.
+EXpresssion=Value
+Example:--1. 5+4
+          2. x*3
+          3."HELLO"+ "WOrld"
+
+ Statement:
+A statement is a complete instruction that performs an action.          
+Statement=Action
+Example:--1."Turn on the lights."
+          2.let age = 20;
+            const name = "John";
+            

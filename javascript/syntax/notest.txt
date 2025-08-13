@@ -1,0 +1,14 @@
+**Syntax:---
+scope variable_name=data/value(datatype);
+ here scope can be:= ( var, let, const)
+ var is public scope.
+ let and const is protected scope.
+
+ #There is certain rule for variable name:--
+ 1. Name has to be unique within same scope, name can be  alpha-numeric but cannot start with number.
+ EXample: Box1 is right
+          1Box is wrong
+ 2.No space and no special character within a variable exception which is(_) .
+ Example:Apple_23 is right.
+         apple&3 is wrong.
+         apple#4 is wrong.        

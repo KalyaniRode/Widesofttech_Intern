@@ -1,0 +1,28 @@
+***Type Casting***
+In JavaScript, typecasting means converting a value from one data type to another, either manually or automatically.
+
+There are two main types:--
+1.Implicit typecasting
+2. Explicit typecasting
+
+# 1.Implicit Typecasting:--
+JavaScript automatically converts one data type to another when needed.
+Happens during operations between different types.
+
+Example:--
+let result = "5" + 2;  // "52" → number 2 is converted to string
+let sum = "5" - 2;     // 3   → string "5" is converted to number
+  
+# 2. Explicit Typecasting:--
+Manually converting a value using functions or methods.
+// String → Number
+let num = Number("42");  // 42
+
+// Number → String
+let str = String(42);    // "42"
+
+// Boolean → Number
+let boolNum = Number(true);  // 1
+
+// Number → Boolean
+let boolVal = Boolean(0);    // false
