@@ -1,0 +1,26 @@
+MongoDB CRUD Operations
+
+1. CREATE (Insert Data)
+Used to add new documents (records) into a collection.
+➤ Methods:
+insertOne() → Inserts a single document
+insertMany() → Inserts multiple documents
+
+
+2. READ (Retrieve Data)
+Used to fetch data from a collection.
+➤ Methods:
+find() → Returns all matching documents
+findOne() → Returns first matching document
+
+3. UPDATE (Modify Data)
+Used to change existing documents.
+➤ Methods:
+updateOne() → Updates the first matching document
+updateMany() → Updates all matching documents
+
+4. DELETE (Remove Data)
+Used to delete documents from a collection.
+➤ Methods:
+deleteOne() → Deletes the first matching document
+deleteMany() → Deletes all matching documents
